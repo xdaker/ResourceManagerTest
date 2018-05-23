@@ -14,10 +14,6 @@ namespace ClassLibrary1.FIleShell
         public IntPtr EnumPtr = IntPtr.Zero;
         public IEnumIDList Enum;
         public  List<IShellFolder> ShellFolder = new List<IShellFolder>();
-        public List<ShellItem> AllShellItem = new List<ShellItem>();//当前文件夹下的文件夹集合
-        
-
-
         /// <summary>
         /// 获取外壳空间的根路径
         /// </summary>
